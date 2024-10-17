@@ -1,0 +1,22 @@
+@use "./helpers/index.scss" as *;
+
+* {
+  font-family: '', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(38 44 36);
+}
+
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+// sections
+// @import "sections/";
+
+// Media
+// @import "sections/";

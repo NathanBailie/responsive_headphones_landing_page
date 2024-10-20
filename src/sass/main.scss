@@ -1,22 +1,17 @@
-@use "./helpers/index.scss" as *;
+@use "./helpers/variables.scss" as *;
+@use "./helpers/mixins.scss" as *;
+@use "./libs/normalize.min.css" as *;
+
+// sections
+// @use "sections/" as *;
 
 * {
   font-family: '', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: rgb(38 44 36);
 }
 
-
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
+body {
+  background: rgb(217, 210, 160);
 }
-
-
-// sections
-// @import "sections/";
-
-// Media
-// @import "sections/";

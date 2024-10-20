@@ -1,8 +1,10 @@
 # Description
 
-<p>This Gulp template is designed to automate the build process of a web project. It includes various tasks for both development and final project build.</p>
+This Gulp template is designed to automate the build process of a web project. It includes various tasks for both development and final project build.
 
 I used the [starter template](https://github.com/YauhenKavalchuk/Starting_template 'click') by Yauhen Kavalchuk as the basis. I rewrote the code in ECMAScript, replacing `gulp.task()` with functions, made some changes to the code structure for better readability and maintainability, and added two modes: development and production build.
+
+---
 
 ## Project launch
 

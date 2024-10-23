@@ -1,3 +1,4 @@
+// helpers
 @use "./helpers/variables.scss" as *;
 @use "./helpers/mixins.scss" as *;
 @use "./libs/normalize.min.css" as *;
@@ -5,13 +6,30 @@
 // sections
 // @use "sections/" as *;
 
+// fonts
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-SemiBold.ttf');
+  font-weight: 600;
+}
+
 * {
-  font-family: '', sans-serif;
+  font-family: var(--font-family);
+  ;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  background: rgb(217, 210, 160);
+  font-weight: var(--font-regular);
 }

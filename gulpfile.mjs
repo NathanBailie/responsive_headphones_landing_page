@@ -1,5 +1,5 @@
 /* DEPENDENCIES */
-import browserSync, { stream } from 'browser-sync'; // inject code to all devices
+import browserSync, { init, notify, stream } from 'browser-sync'; // inject code to all devices
 import gulp from 'gulp'; // gulp core
 import autoprefixer from 'gulp-autoprefixer'; // sets missing browser prefixes
 import clean from 'gulp-clean'; // remove files and folders
@@ -20,7 +20,10 @@ const sass = gulpSass(dartSass);
 /* BROWSERSYNC (LOCAL SERVER) */
 function serve() {
 	browserSync.init({
-		server: { baseDir: './src/' }, // base dir
+		server: {
+			baseDir: './src/',
+		}, // base dir
+		notify: false, // Отключение уведомления
 	});
 }
 

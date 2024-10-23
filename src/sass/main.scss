@@ -4,7 +4,8 @@
 @use "./libs/normalize.min.css" as *;
 
 // sections
-// @use "sections/" as *;
+@use "sections/header/header.scss" as *;
+@use "sections/header/hamburger.scss" as *;
 
 // fonts
 @font-face {
@@ -32,4 +33,53 @@
   padding: 0;
   box-sizing: border-box;
   font-weight: var(--font-regular);
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--body-bg-color);
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.section {
+  padding: var(--section-padding);
+
+  &_title {
+    text-align: center;
+    font-size: var(--bigger-font-size);
+    margin-bottom: var(--mb-2-5);
+
+    &_gradient {
+      background: var(--text-gradient);
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  }
+}
+
+.main {
+  overflow: hidden;
+}
+
+.container {
+  padding: 0 15px;
 }

@@ -19,6 +19,7 @@
 	--text-color: hsl(var(--hue-color), 4%, 75%);
 	--title-color: hsl(var(--hue-color), 4%, 95%);
 	--text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
+	--nav-menu-bg: hsla(0, 0%, 35%, .1);
 
 	// paddings & margins
 	--mb-0-5: .5rem;
@@ -29,4 +30,9 @@
 	--mb-2-5: 2.5rem;
 	--section-padding: 4rem 0 2rem;
 
+	// z-indexes
+	--z-header: 100;
+
+	// heights
+	--header-height: 3rem;
 }

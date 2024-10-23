@@ -10,6 +10,7 @@ header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		padding: 2rem;
 
 		&_logo {
 			width: 30px;
@@ -17,7 +18,6 @@ header {
 		}
 
 		&_list {
-			width: 100%;
 			display: flex;
 			justify-content: center;
 			gap: 3rem;

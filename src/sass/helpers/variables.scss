@@ -15,11 +15,14 @@
 
 	// colors
 	--hue-color: 206;
-	--body-bg-color: hsl(206, 8%, 10%);
+	--body-bg-color: hsl(var(--hue-color), 4%, 6%);
 	--text-color: hsl(var(--hue-color), 4%, 75%);
 	--title-color: hsl(var(--hue-color), 4%, 95%);
 	--text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
 	--nav-menu-bg: hsla(0, 0%, 35%, .1);
+	--black-color: hsl(var(--hue-color), 4%, 4%);
+	--black-color-alt: hsl(var(--hue-color), 4%, 8%);
+	--white-color: #fff;
 
 	// paddings & margins
 	--mb-0-5: .5rem;

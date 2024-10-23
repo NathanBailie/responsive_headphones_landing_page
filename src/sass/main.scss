@@ -6,6 +6,7 @@
 // sections
 @use "sections/header/header.scss" as *;
 @use "sections/header/hamburger.scss" as *;
+@use "sections/home/home.scss" as *;
 
 // fonts
 @font-face {
@@ -49,6 +50,8 @@ h1,
 h2,
 h3 {
   color: var(--title-color);
+  margin: 0;
+  font-weight: var(--font-semi-bold);
 }
 
 a {
@@ -76,10 +79,19 @@ button {
   }
 }
 
+.shadow-title {
+  background: var(--text-gradient);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 .main {
   overflow: hidden;
 }
 
 .container {
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 0 15px;
 }

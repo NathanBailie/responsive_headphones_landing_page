@@ -1,12 +1,12 @@
 .specs {
 	&_container {
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 		position: relative;
 	}
 
 	&_info-wrapper {
-		width: 50%;
+		width: 40%;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -15,13 +15,14 @@
 	}
 
 	&_img-wrapper {
-		width: 50%;
+		width: 40%;
 		display: flex;
-		justify-content: flex-start;
+		justify-content: center;
 		align-items: center;
 
 		img {
 			max-width: 300px;
+			z-index: -1;
 		}
 	}
 

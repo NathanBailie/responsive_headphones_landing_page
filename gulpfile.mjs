@@ -23,7 +23,8 @@ function serve() {
 		server: {
 			baseDir: './src/',
 		}, // base dir
-		notify: false, // Отключение уведомления
+		notify: false, // disable notification
+		scrollRestoration: true, // save scroll position
 	});
 }
 

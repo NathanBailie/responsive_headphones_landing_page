@@ -29,10 +29,6 @@ header {
 				a {
 					font-weight: var(--font-semi-bold);
 					font-size: var(--normal-font-size);
-					background: var(--text-gradient);
-					color: transparent;
-					background-clip: text;
-					-webkit-background-clip: text;
 
 					&:hover {
 						color: var(--color-white);

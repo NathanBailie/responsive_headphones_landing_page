@@ -8,6 +8,7 @@
 	pointer-events: none;
 	opacity: 0;
 	display: none;
+	z-index: var(--z-hamburger);
 }
 
 .hamburger span {

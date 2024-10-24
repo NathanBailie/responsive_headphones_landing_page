@@ -4,6 +4,7 @@ header {
 	top: 0;
 	left: 0;
 	background: transparent;
+	z-index: var(--z-header);
 
 	.nav {
 		height: var(--header-height);
@@ -22,14 +23,25 @@ header {
 			justify-content: center;
 			gap: 3rem;
 			list-style-type: none;
+			z-index: var(--z-hamburger);
 
 			li {
 				a {
-					color: white;
+					font-weight: var(--font-semi-bold);
+					font-size: var(--normal-font-size);
+					background: var(--text-gradient);
+					color: transparent;
+					background-clip: text;
+					-webkit-background-clip: text;
 
 					&:hover {
-						text-decoration: underline;
-						opacity: 0.8;
+						color: var(--color-white);
+					}
+
+					&.active {
+						color: transparent;
+						background: var(--white-color);
+						background-clip: text;
 					}
 				}
 			}
@@ -52,14 +64,19 @@ header {
 				gap: 1.5rem;
 				margin: 0;
 				padding: 1rem 0;
-				backdrop-filter: blur(16px);
-				-webkit-backdrop-filter: blur(16px);
-				background-color: var(--nav-menu-bg);
+				background-color: var(--body-bg-color);
 				transition: top 0.4s;
 
 				&.active {
 					display: flex;
 					top: 0vh;
+				}
+			}
+
+			&_link {
+				a {
+					font-size: var(--h2-font-size);
+					text-transform: uppercase;
 				}
 			}
 		}

@@ -1,0 +1,13 @@
+.sponsors {
+	&_img {
+		width: 90px;
+	}
+
+	&_container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 3rem 5rem;
+	}
+}

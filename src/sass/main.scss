@@ -4,12 +4,14 @@
 @use "./libs/normalize.min.css" as *;
 
 // sections
-@use "sections/header/header.scss" as *;
+@use "sections/button/button.scss" as *;
 @use "sections/header/hamburger.scss" as *;
+@use "sections/header/header.scss" as *;
 @use "sections/home/home.scss" as *;
 @use "sections/sponsors/sponsors.scss" as *;
 @use "sections/specs/specs.scss" as *;
 @use "sections/case/case.scss" as *;
+@use "sections/discount/discount.scss" as *;
 
 // fonts
 @font-face {

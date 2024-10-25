@@ -28,29 +28,6 @@
 		margin-bottom: var(--mb-1-5);
 		line-height: var(--text-line-height);
 	}
-
-	&_button {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: .75rem;
-		background: transparent;
-		color: var(--white-color);
-		transition: .3s;
-		outline: none;
-		border: none;
-		font-size: var(--normal-font-size);
-		padding: 1rem 1.25rem;
-
-		&:hover {
-			background-color: var(--black-color-alt);
-		}
-
-		img {
-			width: 1.2rem;
-			height: 1.2rem;
-		}
-	}
 }
 
 @media(max-width: 800px) {

@@ -1,0 +1,23 @@
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .75rem;
+	background: none;
+	border: none;
+	border-radius: .5rem;
+	padding: 1rem 1.25rem;
+	background-color: var(--black-color);
+	color: var(--white-color);
+	transition: .3s;
+	font-size: var(--normal-font-size);
+
+	&:hover {
+		background-color: var(--black-color-alt);
+	}
+
+	img {
+		width: 1.2rem;
+		height: 1.2rem;
+	}
+}

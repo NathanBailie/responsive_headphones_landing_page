@@ -55,32 +55,10 @@
 	}
 
 	&_bag {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		border: none;
-		background-color: var(--black-color);
-		color: var(--white-color);
-		transition: .3s;
-		background: none;
-		padding: 1rem 1.25rem;
-		border-radius: .5rem;
-
-
-		&_icon {
-			font-size: var(--h3-font-size);
-			font-weight: var(--font-semi-bold);
-			margin-right: var(--mb-0-5);
-		}
-
 		&_price {
 			font-size: var(--h3-font-size);
 			font-weight: var(--font-semi-bold);
 			margin-left: var(--mb-0-75);
-		}
-
-		&:hover {
-			background-color: var(--black-color-alt);
 		}
 	}
 }

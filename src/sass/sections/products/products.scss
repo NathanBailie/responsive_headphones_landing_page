@@ -1,9 +1,10 @@
 .products {
 	&_container {
-		display: grid;
-		grid-template-columns: repeat(3, 155px);
+		display: flex;
 		justify-content: center;
-		gap: 2rem;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 3rem;
 		padding-top: 3rem;
 	}
 
@@ -12,18 +13,18 @@
 	}
 
 	&_item {
-		display: inline-flex;
+		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		padding: .75rem;
+		padding: .8rem;
 		border-radius: .5rem;
 		background-color: var(--container-color);
 	}
 
 	&_img {
-		width: 80px;
+		max-width: 95px;
 		margin-bottom: var(--mb-2-5);
 	}
 
@@ -40,6 +41,10 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 2rem;
+		gap: 3rem;
+
+		button {
+			padding: 0.75rem;
+		}
 	}
 }

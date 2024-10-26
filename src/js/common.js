@@ -54,3 +54,38 @@ window.addEventListener('scroll', () => {
 		? scrollUp.classList.add('active')
 		: scrollUp.classList.remove('active');
 });
+
+// animations
+const sr = ScrollReveal({
+	distance: '60px',
+	duration: 2500,
+	delay: 400,
+	// reset: true
+});
+
+// titles
+sr.reveal(`.home_title, .home_subtitle, .title`, { delay: 600 });
+
+// descriptions
+sr.reveal(`.home_info-title, .home_description, .home_bag`, {
+	delay: 800,
+	origin: 'bottom',
+});
+sr.reveal(`.specs_info`, { delay: 700, origin: 'left', interval: 100 });
+sr.reveal(`.case_info-wrapper`, { delay: 700, origin: 'right' });
+sr.reveal(`.discount_text-wrapper`, { delay: 700, origin: 'left' });
+sr.reveal(`.footer_links`, { delay: 700, origin: 'bottom', interval: 100 });
+sr.reveal(`.footer_form`, { delay: 700, origin: 'top' });
+
+// // images
+sr.reveal(`.home_image-wrapper`, { delay: 900, origin: 'top' });
+sr.reveal(`.case_image-wrapper`, { delay: 900, origin: 'left' });
+sr.reveal(`.discount_image-wrapper`, { delay: 900, origin: 'right' });
+sr.reveal(`.specs_img-wrapper`, { delay: 900, origin: 'right' });
+sr.reveal(`.products_item`, { delay: 900, origin: 'bottom', interval: 100 });
+sr.reveal(`.sponsors_img`, { delay: 900, origin: 'bottom', interval: 100 });
+sr.reveal(`.footer_social-link`, {
+	delay: 900,
+	origin: 'bottom',
+	interval: 100,
+});

@@ -61,6 +61,7 @@
 				<div class="home_image-wrapper">
 					<img src="./img/home.png" alt="headphone_image">
 				</div>
+
 				<div class="home_info">
 					<h1 class="home_title gradient">On ear</h1>
 					<h2 class="home_subtitle">Beats 3
@@ -71,11 +72,13 @@
 						streamlined design with comfortable padded earphones, delivering first-rate playback.
 
 					</p>
-					<button class="home_bag button">
-						<img src="./img/shopping-bag.png" alt="shopping_bag" class="home_bag_icon">
-						<span>Add to Bag</span>
-						<span class="home_bag_price">$299</span>
-					</button>
+					<div class="home_bag">
+						<button class="button">
+							<img src="./img/shopping-bag.png" alt="shopping_bag" class="home_bag_icon">
+							<span>Add to Bag</span>
+							<span class="home_bag_price">$299</span>
+						</button>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -280,13 +283,13 @@
 				</form>
 
 				<div class="footer_social">
-					<a href="#">
+					<a href="#" class="footer_social-link">
 						<img src="./img/social/facebook.png" alt="facebook_img">
 					</a>
-					<a href="#">
-						<img src="./img/social/instagram.png" alt="instagram_img">
+					<a href="#" class="footer_social-link">
+						<img src="./img/social/instagram.png" alt="instagram_img" c>
 					</a>
-					<a href="#">
+					<a href="#" class="footer_social-link">
 						<img src="./img/social/twitter.png" alt="twitter_img">
 					</a>
 				</div>
@@ -302,6 +305,8 @@
 
 
 	<!-- endbuild -->
+	<script src="https://unpkg.com/scrollreveal"></script>
+
 	<!-- build:js js/common.min.js -->
 	<script src="js/common.js"></script>
 	<!-- endbuild -->

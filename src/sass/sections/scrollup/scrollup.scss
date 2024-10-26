@@ -1,13 +1,17 @@
 .scrollup {
 	position: fixed;
 	right: 3rem;
-	bottom: 3rem;
+	bottom: -10%;
 	background-color: var(--container-color);
 	border-radius: .25rem;
 	padding: .45rem;
 	opacity: .9;
 	transition: .4s;
 	z-index: var(--z-header);
+
+	&.active {
+		bottom: 3rem;
+	}
 
 	&:hover {
 		background-color: var(--black-color);

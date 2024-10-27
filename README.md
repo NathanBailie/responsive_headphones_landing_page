@@ -15,6 +15,13 @@ A responsive landing page abount headphones with a animations.
 
 ---
 
+## Launch project
+
+```
+npm install - install dependencies
+gulp dev - launch the project in development mode
+```
+
 ## Screenshots
 
 <img src="https://github.com/NathanBailie/responsive_headphones_landing_page/raw/main/src/img/screenshots/screenshot_1.png" width="900" />
